@@ -57,13 +57,18 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: #702eec;
   color: #fff;
 }
 
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+p {
+  font-size: large;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -79,7 +84,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #140a24;
   overflow-y: auto;
 }
 
@@ -241,7 +246,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top;
+  background: url("../img/javier-hero-bg.jpg") top;
   background-size: cover;
   background-position-x: 80%;
 }
@@ -313,7 +318,7 @@ section {
 }
 
 .section-bg-odd {
-  background: #8d55c9;
+  background: #7b2cd0;
 }
 
 .section-bg-even {
@@ -324,18 +329,18 @@ section {
   padding-bottom: 30px;
 }
 
-.section-title-odd h2 {
+.section-title-odd h1 {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: bolder;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #13161c;
+  color: #4a176c;
 }
 
-.section-title-even h2 {
+.section-title-even h1 {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: bolder;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -467,7 +472,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #8d55c9;
 }
 
 .skills .progress .skill .val {
@@ -496,7 +501,7 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   /*color: #050d18;*/
-  color: #8d55c9;
+  color: #4a176c;
 }
 
 .resume .resume-item {
@@ -513,7 +518,7 @@ section {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   /*color: #050d18;*/
-  color: #8d55c9;
+  color: #4a176c;
   margin-bottom: 10px;
 }
 
@@ -772,7 +777,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# Testimonials / References
 --------------------------------------------------------------*/
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
@@ -806,7 +811,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #c3e8fa;
+  color: #b596da;
   font-size: 26px;
 }
 
@@ -856,11 +861,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #9561cd;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #9d5dd5;
 }
 
 /*--------------------------------------------------------------
