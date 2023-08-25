@@ -318,11 +318,11 @@ section {
 }
 
 .section-bg-odd {
-  background: #BFA2DB;
+  background: #202040;
 }
 
 .section-bg-even {
-  background: #7F7C82;
+  background: #202060;
 }
 
 .section-title {
@@ -335,7 +335,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #F3F1F5;
+  color: #602080;
 }
 
 .section-title-even h1 {
@@ -344,7 +344,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #BFA2DB;
+  color: #B030B0;
 }
 
 .section-title h2::after {
