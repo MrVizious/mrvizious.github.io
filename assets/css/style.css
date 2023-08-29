@@ -335,7 +335,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #C04CFD;
+  color: #7D39A9;
 }
 
 .section-title-even h1 {
@@ -344,7 +344,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #C04CFD;
+  color: #392654;
 }
 
 .section-title h2::after {
@@ -375,7 +375,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #4a176c;
+  color: #C04CFD;
 }
 
 .about .content ul {
@@ -396,7 +396,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #8d55c9;
+  color: #C04CFD;
   line-height: 0;
 }
 
@@ -518,7 +518,7 @@ section {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   /*color: #050d18;*/
-  color: #4a176c;
+  color: #91C7B1;
   margin-bottom: 10px;
 }
 
