@@ -11,16 +11,16 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #ced1d4cd;
+  color: #91C7B1;
 }
 
 a {
-  color: #8d55c9de;
+  color: #91C7B1;
   text-decoration: none;
 }
 
 a:hover {
-  color: #a137eddf;
+  color: #DCCDE8;
   text-decoration: none;
 }
 
@@ -318,11 +318,11 @@ section {
 }
 
 .section-bg-odd {
-  background: #202040;
+  background: #392654;
 }
 
 .section-bg-even {
-  background: #202060;
+  background: #7D39A9;
 }
 
 .section-title {
@@ -335,7 +335,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #602080;
+  color: #C04CFD;
 }
 
 .section-title-even h1 {
@@ -344,7 +344,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #B030B0;
+  color: #C04CFD;
 }
 
 .section-title h2::after {
@@ -361,12 +361,12 @@ section {
 
 .section-title-odd p {
   margin-bottom: 0;
-  color: #c4c3c5;
+  color: #DCCDE8;
 }
 
 .section-title-even p {
   margin-bottom: 0;
-  color: #976dc3;
+  color: #DCCDE8;
 }
 
 /*--------------------------------------------------------------
