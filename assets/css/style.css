@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #91C7B1;
+  color: #DCCDE8;
 }
 
 a {
@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #DCCDE8;
+  color: #85FF9E;
   text-decoration: none;
 }
 
@@ -501,7 +501,7 @@ section {
   margin-top: 20px;
   margin-bottom: 20px;
   /*color: #050d18;*/
-  color: #4a176c;
+  color: #7D39A9;
 }
 
 .resume .resume-item {
@@ -800,7 +800,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #4a176c;
 }
 
 .testimonials .testimonial-item h4 {
