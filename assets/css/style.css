@@ -562,7 +562,7 @@ section {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.portfolio #portfolio-filters {
   padding: 0;
   margin: 0 auto 35px auto;
   list-style: none;
@@ -572,7 +572,7 @@ section {
   padding: 2px 15px;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio #portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -585,12 +585,12 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-filters li:hover,
+.portfolio #portfolio-filters li.filter-active {
   color: #8d55c9;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.portfolio #portfolio-filters li:last-child {
   margin-right: 0;
 }
 
@@ -621,7 +621,7 @@ section {
   bottom: -60px;
   z-index: 3;
   position: absolute;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.2s;
   display: flex;
   justify-content: center;
 }
@@ -631,7 +631,7 @@ section {
   font-size: 28px;
   text-align: center;
   background: #913fd0bf;
-  transition: 0.3s;
+  transition: 0.2s;
   width: 50%;
 }
 
@@ -661,6 +661,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
+  background-color: #392654;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -675,7 +676,7 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #392654;
   opacity: 1;
   border: 1px solid #8d55c9;
 }
@@ -800,7 +801,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #4a176c;
+  color: #c4bacb;
 }
 
 .testimonials .testimonial-item h4 {
@@ -1057,7 +1058,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background: #f9f9f9;
+  background: #7D39A9;
 }
 
 .breadcrumbs h2 {
