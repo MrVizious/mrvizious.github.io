@@ -375,7 +375,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #C04CFD;
+  color: #7D39A9;
 }
 
 .about .content ul {
@@ -885,11 +885,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #8d55c9;
+  color: #a8a9b4;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #392654;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -902,14 +902,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #DCCDE8;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #4a176c;
+  color: #DCCDE8;
 }
 
 .contact .info .email p {
