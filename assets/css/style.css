@@ -265,7 +265,8 @@ p {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  min-width: 500px;
+  display: flex;
 }
 
 #hero h1 {
