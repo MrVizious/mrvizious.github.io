@@ -79,7 +79,7 @@ p {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 18%;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -133,7 +133,7 @@ p {
 }
 
 #main {
-  margin-left: 300px;
+  margin-left: 18%;
 }
 
 .container,
@@ -265,7 +265,8 @@ p {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 700px;
+  width: 53%;
+  height: 25%;
 }
 
 #hero h1 {
@@ -1110,7 +1111,7 @@ section {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 18%;
   z-index: 9999;
   background: #040b14;
 }
