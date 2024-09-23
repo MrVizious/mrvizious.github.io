@@ -158,6 +158,18 @@ p {
   }
 }
 
+/* Default: Hide the text */
+.sidebar-text {
+  display: none;
+}
+
+/* Show the text only when the screen width is greater than 300px */
+@media (min-width: 850px) {
+  .sidebar-text {
+    display: inline;
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
