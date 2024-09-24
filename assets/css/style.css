@@ -156,6 +156,23 @@ p {
     padding-left: 12px;
     padding-right: 12px;
   }
+
+}
+
+@media (max-width: 850px) {
+
+  #header .profile h1 a,
+  #header .profile h1 a:hover {
+    font-size: 14px;
+  }
+
+  #header .profile img {
+    border: 3px solid #2c2f3f;
+  }
+}
+
+#header .profile h1 {
+  text-align: center;
 }
 
 /* Default: Hide the text */
