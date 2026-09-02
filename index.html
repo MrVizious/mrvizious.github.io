@@ -41,6 +41,7 @@
 </head>
 
 <body>
+  <canvas class="site-particles" aria-hidden="true"></canvas>
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
@@ -68,11 +69,12 @@
                 Me</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i><span class="sidebar-text">
                 Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-              <span class="sidebar-text"> Portfolio</span></a></li>
-          <li><a href="#references" class="nav-link scrollto"><i class="bx bx-user-voice"></i>
-              <span class="sidebar-text"> References</span></a>
-          </li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i><span
+                class="sidebar-text"> Portfolio</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-code-alt"></i><span class="sidebar-text">
+                Skills</span></a></li>
+          <li><a href="#references" class="nav-link scrollto"><i class="bx bx-user-voice"></i><span
+                class="sidebar-text"> References</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i><span class="sidebar-text">
                 Contact</span></a></li>
         </ul>
@@ -83,19 +85,29 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in" data-aos-duration="500">
-      <p>Hello! I am</p>
-      <h1>Javier Riera<span class="fa-solid fa-alien-8bit"></span></h1>
-      <h2><span class="typed"
-          style="font-family: VT323, monospace; font-size:larger; vertical-align:middle; color: white;"
-          data-typed-items='Videogame Developer <span class="fa-solid fa-keyboard"></span>,
-          Unity Certified Professional Programmer <span class="fa-brands fa-unity"></span>,
-          Videogame Enthusiast <span class="fa-solid fa-gamepad">,
-          All-around Geek <span class="fa-solid fa-dice-d20"></span>'></span>
+      <p class="eyebrow">Game developer • Unity specialist • XR builder</p>
+      <h1>Javier Riera</h1>
+      <h2 class="hero-typed-line">
+        <span class="typed"
+          data-typed-items="Unity Programmer, Gameplay Engineer, Game Systems Designer, XR and VR Developer, Technical Lead"></span>
+        <span class="typed-icon" aria-hidden="true"><i class="fa-solid fa-code"></i></span>
       </h2>
+      <p class="lead">I design gameplay systems, build scalable code, and turn ambitious ideas into polished digital
+        experiences.</p>
+      <div class="hero-actions">
+        <a href="#portfolio" class="btn btn-primary">View projects</a>
+        <a href="#contact" class="btn btn-secondary">Let's talk</a>
+      </div>
+      <ul class="hero-meta">
+        <li>5+ years in Unity</li>
+        <li>Unity Certified Programmer</li>
+        <li>Game jam enthusiast</li>
+      </ul>
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
+    <canvas class="site-particles" aria-hidden="true"></canvas>
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg-odd">
@@ -456,7 +468,8 @@
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-commercial">
             <div class="portfolio-wrap col-12">
-              <img src="assets/img/Altecmia/Logo_Altecmia.png" class="img-fluid" alt="" aspect-ratio="16/9">
+              <img src="assets/img/Altecmia/Logo_Altecmia.png" class="img-fluid portfolio-card-altecmia" alt=""
+                aspect-ratio="16/9">
               <div class="portfolio-links">
                 <a href="portfolio-details-akasha.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -539,7 +552,7 @@
                   reference for the artistic team of any project. The only bad thing is that, since he grew a beard, he
                   is so handsome that it is difficult to focus at work, so it takes us twice as long to do everything.
                   <br>And I have my idea notebook full of portraits of Javi in ​​different alternative realities. Today
-                  <a href="assets/img/extra/pirate_javi_by_jaime.png" target="_blank">
+                  <a href="assets/img/extra/pirate_javi_by_jaime.png" target="_blank" style="color:#7D39A9;">
                     I drew him as pirate.
                   </a>
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
