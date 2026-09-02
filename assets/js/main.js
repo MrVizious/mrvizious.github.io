@@ -65,10 +65,12 @@
    * Scrolls to an element with header offset
    */
   const scrollto = (el) => {
-    let elementPos = select(el).offsetTop
-    window.scrollTo({
-      top: elementPos,
-      behavior: 'smooth'
+    const element = select(el)
+    if (!element) return
+
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
     })
   }
 
