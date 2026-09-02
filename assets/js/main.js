@@ -130,15 +130,35 @@
    * Hero type effect
    */
   const typed = select('.typed')
+  const typedIcon = select('.typed-icon i')
+  const typedIcons = [
+    'fa-solid fa-code',
+    'fa-solid fa-gamepad',
+    'fa-solid fa-cubes',
+    'fa-solid fa-vr-cardboard',
+    'fa-solid fa-people-group'
+  ]
+
   if (typed) {
     let typed_strings = typed.getAttribute('data-typed-items')
     typed_strings = typed_strings.split(',')
+
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
       typeSpeed: 50,
       backSpeed: 30,
-      backDelay: 1000
+      backDelay: 1000,
+      onStringTyped: (arrayPos, self) => {
+        if (typedIcon && typedIcons[arrayPos]) {
+          typedIcon.className = typedIcons[arrayPos]
+        }
+      },
+      onReset: () => {
+        if (typedIcon) {
+          typedIcon.className = 'fa-solid fa-code'
+        }
+      }
     });
   }
 
@@ -186,6 +206,15 @@
         });
       }, true);
     }
+
+    document.querySelectorAll('.portfolio-wrap').forEach((wrap) => {
+      const link = wrap.querySelector('a')
+      if (link) {
+        wrap.addEventListener('click', () => {
+          window.location.href = link.getAttribute('href')
+        })
+      }
+    })
 
   });
 
