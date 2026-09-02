@@ -192,7 +192,7 @@
       const area = particleCanvas.width * particleCanvas.height
       const ratio = (area - referencePixels) / (largeReferencePixels - referencePixels)
       const count = Math.round(referenceCount + (largeReferenceCount - referenceCount) * ratio)
-      const drift_speed = 0.25
+      const drift_speed = 0.15
       particles.length = 0
       for (let i = 0; i < count; i++) {
         particles.push({
@@ -215,7 +215,7 @@
           const dx = p.x - mouse.x
           const dy = p.y - mouse.y
           const distance = Math.hypot(dx, dy) || 1
-          const mouse_force = 0.5
+          const mouse_force = 0.15
 
           if (distance < mouse.radius) {
             const force = (mouse.radius - distance) / mouse.radius
