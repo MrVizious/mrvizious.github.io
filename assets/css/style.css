@@ -75,6 +75,33 @@ a:hover {
   text-decoration: none;
 }
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--secondary);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 10000;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  background: #f8fafc;
+  color: #111827;
+  font-weight: 700;
+  transform: translateY(-150%);
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  color: #111827;
+}
+
 h1,
 h2,
 h3,
@@ -147,6 +174,16 @@ img {
 #header .profile h1 a {
   color: #f5f3ff;
   font-weight: 700;
+}
+
+#header .profile-role {
+  margin: -4px 0 12px;
+  color: #a7f3d0;
+  font-size: 0.84rem;
+  font-weight: 700;
+  line-height: 1.45;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 #header .profile .social-links {
@@ -635,6 +672,11 @@ section {
   transform: translateY(0);
 }
 
+.portfolio .portfolio-wrap:focus-within .portfolio-links {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .portfolio .portfolio-wrap .portfolio-links a {
   display: inline-flex;
   align-items: center;
@@ -978,5 +1020,19 @@ section {
   .section-bg-even {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
